@@ -1,6 +1,6 @@
 {
 	"name": "deltree",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"description": "Recursively remove a directory from filesystem",
 	"main": "index.js",
 	"scripts": {
