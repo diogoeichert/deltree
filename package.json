@@ -1,0 +1,42 @@
+{
+	"name": "deltree",
+	"version": "1.2.2",
+	"description": "Recursively remove a directory from filesystem",
+	"main": "index.js",
+	"scripts": {
+		"prepublishOnly": "git checkout main && git pull --rebase && npm test && git push",
+		"test": "eslint --fix . && node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/diogoeichert/deltree.git"
+	},
+	"keywords": [
+		"del",
+		"delete",
+		"deltree",
+		"directory",
+		"folder",
+		"rd",
+		"recursive",
+		"remove",
+		"rimraf",
+		"rm",
+		"rm -rf",
+		"rmdir",
+		"unlink"
+	],
+	"author": "Diogo Eichert",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/diogoeichert/deltree/issues"
+	},
+	"homepage": "https://github.com/diogoeichert/deltree#readme",
+	"devDependencies": {
+		"clonefolder": "^1.1.2",
+		"eslint": "^7.5.0"
+	},
+	"dependencies": {
+		"eslint-config-perfect": "^1.0.0"
+	}
+}
