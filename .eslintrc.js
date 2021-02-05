@@ -1,3 +1,3 @@
 module.exports = {
-	"extends": "perfect"
+	"extends": "classic"
 };
