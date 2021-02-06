@@ -2,10 +2,10 @@
 	"name": "deltree",
 	"version": "1.2.4",
 	"description": "Recursively remove a directory from filesystem",
-	"main": "index.js",
+	"main": "src/index.js",
 	"scripts": {
 		"prepublishOnly": "git checkout main && git pull --rebase && npm test && git push",
-		"test": "eslint --fix . && node test.js"
+		"test": "eslint --fix . && node ./src/test.js"
 	},
 	"repository": {
 		"type": "git",
@@ -34,7 +34,7 @@
 	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=deltree&currency_code=EUR",
 	"homepage": "https://github.com/diogoeichert/deltree#readme",
 	"devDependencies": {
-		"clonefolder": "^1.1.8",
+		"clonefolder": "^1.1.9",
 		"eslint": "^7.19.0",
 		"eslint-config-classic": "^0.1.1"
 	},
