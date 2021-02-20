@@ -1,6 +1,6 @@
 {
 	"name": "deltree",
-	"version": "1.2.5",
+	"version": "1.2.6",
 	"description": "Recursively remove a directory from filesystem",
 	"main": "src/index.js",
 	"scripts": {
@@ -31,7 +31,9 @@
 	"bugs": {
 		"url": "https://github.com/diogoeichert/deltree/issues"
 	},
-	"funding": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=deltree&currency_code=EUR",
+	"funding": {
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=deltree&currency_code=EUR"
+	},
 	"homepage": "https://github.com/diogoeichert/deltree#readme",
 	"devDependencies": {
 		"clonefolder": "^1.1.9",
