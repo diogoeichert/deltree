@@ -37,6 +37,5 @@
 		"clonefolder": "^1.1.9",
 		"eslint": "^7.19.0",
 		"eslint-config-classic": "^0.1.1"
-	},
-	"dependencies": {}
+	}
 }
