@@ -37,7 +37,7 @@
 	"homepage": "https://github.com/diogoeichert/deltree#readme",
 	"devDependencies": {
 		"clonefolder": "^1.1.9",
-		"eslint": "^7.19.0",
+		"eslint": "^8.7.0",
 		"eslint-config-classic": "^0.1.1"
 	}
 }
