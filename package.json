@@ -5,7 +5,7 @@
 	"main": "src/index.js",
 	"scripts": {
 		"prepublishOnly": "git checkout main && git pull --rebase && npm test && git push",
-		"test": "eslint --fix . && node ./src/test.js"
+		"test": "eslint --fix ."
 	},
 	"repository": {
 		"type": "git",
@@ -36,7 +36,6 @@
 	},
 	"homepage": "https://github.com/diogoeichert/deltree#readme",
 	"devDependencies": {
-		"clonefolder": "^1.1.9",
 		"eslint": "^7.19.0",
 		"eslint-config-classic": "^0.1.1"
 	}
