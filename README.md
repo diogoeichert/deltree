@@ -16,5 +16,5 @@ npm install deltree --save
 ## Usage
 ```
 const deltree = require("deltree");
-deltree("/path/to/directory");
+deltree("path/to/directory");
 ```
