@@ -32,8 +32,8 @@
 		"url": "https://github.com/diogoeichert/deltree/issues"
 	},
 	"funding": {
-		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=deltree&currency_code=EUR"
-	},
+                "url": "https://github.com/sponsors/diogoeichert"
+        },
 	"homepage": "https://github.com/diogoeichert/deltree#readme",
 	"devDependencies": {
 		"eslint": "^8.10.0",
