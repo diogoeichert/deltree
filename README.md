@@ -3,6 +3,8 @@
 [![license](https://img.shields.io/github/license/diogoeichert/deltree.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/deltree.svg)](https://www.npmjs.com/package/deltree)
 
+![deltree logo](./deltree.jpg)
+
 # deltree
 Recursively removes directories.
 
