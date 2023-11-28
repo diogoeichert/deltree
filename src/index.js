@@ -3,7 +3,13 @@
 const {existsSync, lstatSync, readdirSync, rmdirSync, unlinkSync} = require("fs");
 const {join, normalize} = require("path");
 
-module.exports = function (directory) {
+/**
+ * Recursively deletes a directory (folder) from the filesystem.
+ *
+ * @param {string} directory - The path to the directory, e.g. "path/to/directory".
+ * @returns {boolean} True if successful.
+ */
+function deltree(directory) {
 	function remove(directory) {
 		readdirSync(directory).forEach(file => {
 			const current = join(directory, file);
@@ -26,4 +32,6 @@ module.exports = function (directory) {
 
 	remove(directory);
 	return true;
-};
+}
+
+module.exports = deltree;
